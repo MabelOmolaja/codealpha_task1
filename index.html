@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mabel | Internship Project</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .box {
+      max-width: 600px;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+p {
+      font-size: 1.1rem;
+      color: #cbd5e1;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      background: #38bdf8;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0ea5e9;
+    }
+
+    #details {
+      margin-top: 20px;
+      display: none;
+      background: rgba(255,255,255,0.08);
+      padding: 15px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <h1>Hi I'm Mabel</h1>
+
+    <p>This is my DevOps Internship Project using Docker on Azure VM</p>
+
+    <button onclick="showDetails()">View Project Summary</button>
+
+    <div id="details">
+      <p>
+        I deployed a web server using Docker on an Azure Virtual Machine.
+        I installed Docker, ran an Nginx container, configured networking,
+        and exposed the application using a public IP address.
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function showDetails() {
+      document.getElementById("details").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
