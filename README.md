@@ -4,7 +4,6 @@
   <img src="https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoftazure">
   <img src="https://img.shields.io/badge/Linux-Ubuntu-orange?logo=linux">
   <img src="https://img.shields.io/badge/Nginx-Web_Server-success">
-  <img src="https://img.shields.io/badge/CodeAlpha-Internship-purple">
 </p>
 
 ##  
@@ -13,8 +12,6 @@
 ---
 
 ## Project Overview
-
-This project was completed as part of the CodeAlpha DevOps Internship.
 
 The objective was to learn Docker containerization by deploying and managing a web server inside a Docker container. To achieve this, I provisioned a Linux Virtual Machine on Microsoft Azure, installed Docker, deployed an Nginx web server container, configured network access, and hosted a custom HTML webpage accessible through a public IP address.
 
@@ -206,6 +203,6 @@ Through this project, I gained practical experience with:
 
 ## Conclusion
 
-This project successfully met all the objectives of the CodeAlpha Web Server Using Docker task. By deploying a containerized Nginx web server on Microsoft Azure, I gained hands-on experience with Docker, Linux administration, cloud infrastructure, networking, and troubleshooting.
+By deploying a containerized Nginx web server on Microsoft Azure, I gained hands-on experience with Docker, Linux administration, cloud infrastructure, networking, and troubleshooting.
 
 The project strengthened my understanding of container-based deployments and provided a practical foundation for further learning in cloud computing and DevOps engineering.
